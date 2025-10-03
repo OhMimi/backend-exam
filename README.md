@@ -30,6 +30,7 @@
 
 1. 允許panic但必須是顯式調用
 2. 地址不允許改變
+3. 禁止修改 swap 類型標記
 
 ### 範例
 
@@ -40,6 +41,8 @@
 [題目三](trim_all_strings/main.go)
 
 請完成 TrimAllStrings 函式, 移除所有空白字元
+
+1. 禁止修改 TrimAllStrings 類型標記
 
 ### 範例
 
